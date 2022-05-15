@@ -3,6 +3,7 @@
     background-color: #003580;
     display: flex;
     justify-content: center;
+    padding-top:10px;
 }
 
 .navContainer {
@@ -16,12 +17,44 @@
 
 .logo {
     font-weight: 500;
+    font-size: 28px;
+    line-height: 20px;
+    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, 'Helvetica', Arial, sans-serif;
 }
 
 .navButton {
     margin-left: 20px;
+    width: 80px;
+    height: 35px;
+    font-weight: 600;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-    color: #003580;
+    color: #0071c2;
+    background-color: #FFF;
+    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, 'Helvetica', Arial, sans-serif;
+}
+
+.navButton:nth-child(1) {
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #FFF;
+    border: 1px solid #FFF;
+    background-color: #003580;
+    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, 'Helvetica', Arial, sans-serif;
+}
+
+.navButton:hover:nth-child(1) {
+    background-color: #1F4E8F;
+    color: #FFF;
+}
+
+.navButton:hover {
+    background-color: #f1f1f1;
 }
