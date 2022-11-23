@@ -1,7 +1,9 @@
+import SmoothList from 'react-smooth-list';
 import './featured.css';
 
 const FeaturedProperty = () => {
   return (
+  <SmoothList>
     <div className="fp">
       <div className="fpItem">
         <img
@@ -60,7 +62,8 @@ const FeaturedProperty = () => {
         </div>
       </div>
     </div>
-  )
+    </SmoothList>
+  );
 }
 
 export default FeaturedProperty;
